@@ -1,0 +1,43 @@
+form {
+  display: flex;
+  align-items: center;
+  background-color: #F4F7FC;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px 0;
+  color: #4D65AC;
+}
+
+input[type="text"] {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  color: #4D65AC;
+  background-color: #F4F7FC;
+  transition: background-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  background-color: #f1f3f4;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+  outline: none;
+  color: #1a73e8;
+  transition: color 0.3s ease;
+}
+
+button:hover {
+  color: #0c47b7;
+}
+
+button i {
+  font-size: 24px;
+}

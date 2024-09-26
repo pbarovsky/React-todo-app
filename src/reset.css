@@ -1,0 +1,49 @@
+/* Сброс margin и padding для всех элементов */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Сброс стилей для списка */
+ul,
+li {
+  list-style: none;
+}
+
+/* Сброс стилей для ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Сброс стилей для кнопок */
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Сброс стилей для ввода текста */
+input {
+  border: none;
+  outline: none;
+}
+
+/* Сброс стилей для изображений */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Сброс стилей для заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}

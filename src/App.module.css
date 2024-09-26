@@ -1,0 +1,31 @@
+.todo-app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #e2e2e2;
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #202124;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.todo-counter {
+  font-size: 14px;
+  color: #5f6368;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li + li {
+  margin-top: 10px;
+}

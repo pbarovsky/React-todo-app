@@ -1,0 +1,67 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  margin: 5px 0;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.todo-item:hover {
+  background-color: #F4F7FC;
+}
+
+.todo-text {
+  flex: 1;
+  cursor: pointer;
+  font-size: 16px;
+  word-break: break-word;
+  padding-left: 5px;
+}
+
+.todo-text.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.editing-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+input[type="text"] {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.edit-buttons,
+.todo-actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #1a73e8;
+  transition: color 0.3s ease;
+  outline: none;
+}
+
+button:hover {
+  color: #0c47b7;
+}
+
+button i {
+  font-size: 20px;
+}
